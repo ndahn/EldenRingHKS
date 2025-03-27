@@ -406,3 +406,21 @@ end
 function Rolling_Selftrans_onDeactivate()
     act(DisallowAdditiveTurning, FALSE)
 end
+
+
+GetEvasionRequest = hookup_function(GetEvasionRequest)
+ExecEvasion = hookup_function(ExecEvasion)
+Evasion_Activate = hookup_function(Evasion_Activate)
+Evasion_Update = hookup_function(Evasion_Update)
+Evasion_Deactivate = hookup_function(Evasion_Deactivate)
+SetRollingTurnCondition = hookup_function(SetRollingTurnCondition)
+EvasionCommonFunction = hookup_function(EvasionCommonFunction)
+DefaultBackStep_onActivate = hookup_function(DefaultBackStep_onActivate)
+DefaultBackStep_onUpdate = hookup_function(DefaultBackStep_onUpdate)
+DefaultBackStep_onDeactivate = hookup_function(DefaultBackStep_onDeactivate)
+BackStepGuardOn_UpperLayer_onUpdate = hookup_function(BackStepGuardOn_UpperLayer_onUpdate)
+BackStepGuardEnd_UpperLayer_onUpdate = hookup_function(BackStepGuardEnd_UpperLayer_onUpdate)
+Rolling_onUpdate = hookup_function(Rolling_onUpdate)
+Rolling_onDeactivate = hookup_function(Rolling_onDeactivate)
+Rolling_Selftrans_onUpdate = hookup_function(Rolling_Selftrans_onUpdate)
+Rolling_Selftrans_onDeactivate = hookup_function(Rolling_Selftrans_onDeactivate)

@@ -87,3 +87,8 @@ function EventCommonFunction()
     end
     return FALSE
 end
+
+
+Event_Activate = hookup_function(Event_Activate)
+Event_Update = hookup_function(Event_Update)
+EventCommonFunction = hookup_function(EventCommonFunction)

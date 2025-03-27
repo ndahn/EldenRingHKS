@@ -226,3 +226,15 @@ function AddBlendSpeak_onUpdate()
         ExecEventAllBody("W_AddBlendSpeak")
     end
 end
+
+
+GetHalfBlendInfo = hookup_function(GetHalfBlendInfo)
+ExecEventHalfBlend = hookup_function(ExecEventHalfBlend)
+ExecEventHalfBlendNoReset = hookup_function(ExecEventHalfBlendNoReset)
+ExecEventAllBody = hookup_function(ExecEventAllBody)
+HalfBlendLowerCommonFunction = hookup_function(HalfBlendLowerCommonFunction)
+HalfBlendLowerCommonFunctionNoSync = hookup_function(HalfBlendLowerCommonFunctionNoSync)
+HalfBlendUpperCommonFunction = hookup_function(HalfBlendUpperCommonFunction)
+Event_onActivate = hookup_function(Event_onActivate)
+Event_onUpdate = hookup_function(Event_onUpdate)
+AddBlendSpeak_onUpdate = hookup_function(AddBlendSpeak_onUpdate)

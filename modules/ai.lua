@@ -16,3 +16,9 @@ function SetNpcTurnSpeed(turn_speed)
         act(SetTurnSpeed, turn_speed)
     end
 end
+
+
+SetAIActionState = hookup_function(SetAIActionState)
+Replanning = hookup_function(Replanning)
+SetInterruptType = hookup_function(SetInterruptType)
+SetNpcTurnSpeed = hookup_function(SetNpcTurnSpeed)

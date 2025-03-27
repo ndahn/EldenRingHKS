@@ -214,3 +214,22 @@ function RideDamageBind_End_onUpdate()
         return
     end
 end
+
+
+RideDamage_onUpdate = hookup_function(RideDamage_onUpdate)
+RideDamage_M_onUpdate = hookup_function(RideDamage_M_onUpdate)
+RideDamage_H_onUpdate = hookup_function(RideDamage_H_onUpdate)
+RideDamageSmall_onUpdate = hookup_function(RideDamageSmall_onUpdate)
+RideDamageMiddle_onUpdate = hookup_function(RideDamageMiddle_onUpdate)
+RideDamageLarge_onUpdate = hookup_function(RideDamageLarge_onUpdate)
+RideDamageExLarge_onUpdate = hookup_function(RideDamageExLarge_onUpdate)
+RideDamageWeakTop_onUpdate = hookup_function(RideDamageWeakTop_onUpdate)
+RideDamageWeakUnder_onUpdate = hookup_function(RideDamageWeakUnder_onUpdate)
+RideFireDamageBlend_Default_onUpdate = hookup_function(RideFireDamageBlend_Default_onUpdate)
+RideDamage_Fall_onUpdate = hookup_function(RideDamage_Fall_onUpdate)
+RideDamage_Fall_AbyssalForest_onUpdate = hookup_function(RideDamage_Fall_AbyssalForest_onUpdate)
+RideDamage_Fall_AbyssalForest_onDeactivate = hookup_function(RideDamage_Fall_AbyssalForest_onDeactivate)
+RideDamageMad_onUpdate = hookup_function(RideDamageMad_onUpdate)
+RideDamageBind_Start_onUpdate = hookup_function(RideDamageBind_Start_onUpdate)
+RideDamageBind_Loop_onUpdate = hookup_function(RideDamageBind_Loop_onUpdate)
+RideDamageBind_End_onUpdate = hookup_function(RideDamageBind_End_onUpdate)

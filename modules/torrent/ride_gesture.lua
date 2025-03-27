@@ -82,3 +82,8 @@ function RideGestureUpper_onUpdate()
         return
     end
 end
+
+
+ExecRideGesture = hookup_function(ExecRideGesture)
+RideGesture_onUpdate = hookup_function(RideGesture_onUpdate)
+RideGestureUpper_onUpdate = hookup_function(RideGestureUpper_onUpdate)

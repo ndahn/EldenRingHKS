@@ -68,6 +68,9 @@ function load_module(relative_path)
 end
 
 -- Load modules
+load_module("modules/hooks.lua)
+load_module("modules/helpers.lua")
+
 load_module("modules/combat/attack.lua")
 load_module("modules/torrent/ride.lua")
 load_module("modules/ai.lua")
@@ -76,7 +79,6 @@ load_module("modules/event.lua")
 load_module("modules/falling.lua")
 load_module("modules/gestures.lua")
 load_module("modules/handchange.lua")
-load_module("modules/helpers.lua")
 load_module("modules/items.lua")
 load_module("modules/jump.lua")
 load_module("modules/ladders.lua")

@@ -273,3 +273,19 @@ end
 function RideHandChangeEnd_onDeactivate()
     act(DisallowAdditiveTurning, FALSE)
 end
+
+
+ExecRideWeaponChange = hookup_function(ExecRideWeaponChange)
+ExecRideHandChange = hookup_function(ExecRideHandChange)
+RideWeaponChangeStart_onActivate = hookup_function(RideWeaponChangeStart_onActivate)
+RideWeaponChangeStart_onUpdate = hookup_function(RideWeaponChangeStart_onUpdate)
+RideWeaponChangeStart_onDeactivate = hookup_function(RideWeaponChangeStart_onDeactivate)
+RideWeaponChangeEnd_onActivate = hookup_function(RideWeaponChangeEnd_onActivate)
+RideWeaponChangeEnd_onUpdate = hookup_function(RideWeaponChangeEnd_onUpdate)
+RideWeaponChangeEnd_onDeactivate = hookup_function(RideWeaponChangeEnd_onDeactivate)
+RideHandChangeStart_onActivate = hookup_function(RideHandChangeStart_onActivate)
+RideHandChangeStart_onUpdate = hookup_function(RideHandChangeStart_onUpdate)
+RideHandChangeStart_onDeactivate = hookup_function(RideHandChangeStart_onDeactivate)
+RideHandChangeEnd_onActivate = hookup_function(RideHandChangeEnd_onActivate)
+RideHandChangeEnd_onUpdate = hookup_function(RideHandChangeEnd_onUpdate)
+RideHandChangeEnd_onDeactivate = hookup_function(RideHandChangeEnd_onDeactivate)

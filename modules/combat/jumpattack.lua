@@ -262,3 +262,22 @@ function JumpAttack_Start_Falling_D_onUpdate()
         return
     end
 end
+
+
+ExecFallAttack = hookup_function(ExecFallAttack)
+JumpAttackRight_Activate = hookup_function(JumpAttackRight_Activate)
+JumpAttackLeft_Activate = hookup_function(JumpAttackLeft_Activate)
+JumpAttackBoth_Activate = hookup_function(JumpAttackBoth_Activate)
+Jump_LandAttack_Normal_onActivate = hookup_function(Jump_LandAttack_Normal_onActivate)
+Jump_LandAttack_Normal_onUpdate = hookup_function(Jump_LandAttack_Normal_onUpdate)
+Jump_LandAttack_Normal_onDeactivate = hookup_function(Jump_LandAttack_Normal_onDeactivate)
+Jump_LandAttack_Hard_onActivate = hookup_function(Jump_LandAttack_Hard_onActivate)
+Jump_LandAttack_Hard_onUpdate = hookup_function(Jump_LandAttack_Hard_onUpdate)
+Jump_LandAttack_Hard_onDeactivate = hookup_function(Jump_LandAttack_Hard_onDeactivate)
+Jump_Attack_Land_F_onUpdate = hookup_function(Jump_Attack_Land_F_onUpdate)
+JumpAttack_Start_Falling_onActivate = hookup_function(JumpAttack_Start_Falling_onActivate)
+JumpAttack_Start_Falling_onUpdate = hookup_function(JumpAttack_Start_Falling_onUpdate)
+JumpAttack_Start_Falling_F_onActivate = hookup_function(JumpAttack_Start_Falling_F_onActivate)
+JumpAttack_Start_Falling_F_onUpdate = hookup_function(JumpAttack_Start_Falling_F_onUpdate)
+JumpAttack_Start_Falling_D_onActivate = hookup_function(JumpAttack_Start_Falling_D_onActivate)
+JumpAttack_Start_Falling_D_onUpdate = hookup_function(JumpAttack_Start_Falling_D_onUpdate)

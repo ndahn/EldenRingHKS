@@ -504,3 +504,22 @@ function StealthHandChangeEnd_Upper_onDeactivate()
     HandChangeTest_ToL1 = FALSE
     HandChangeTest_ToL2 = FALSE
 end
+
+
+GetWeaponChangeType = hookup_function(GetWeaponChangeType)
+SetHandChangeStyle = hookup_function(SetHandChangeStyle)
+ExecWeaponChange = hookup_function(ExecWeaponChange)
+GetHandChangeType = hookup_function(GetHandChangeType)
+ExecHandChange = hookup_function(ExecHandChange)
+WeaponChangeCommonFunction = hookup_function(WeaponChangeCommonFunction)
+HandChangeCommonFunction = hookup_function(HandChangeCommonFunction)
+WeaponChangeStart_Upper_onUpdate = hookup_function(WeaponChangeStart_Upper_onUpdate)
+StealthWeaponChangeStart_Upper_onUpdate = hookup_function(StealthWeaponChangeStart_Upper_onUpdate)
+WeaponChangeEnd_Upper_onUpdate = hookup_function(WeaponChangeEnd_Upper_onUpdate)
+StealthWeaponChangeEnd_Upper_onUpdate = hookup_function(StealthWeaponChangeEnd_Upper_onUpdate)
+HandChangeStart_Upper_onUpdate = hookup_function(HandChangeStart_Upper_onUpdate)
+StealthHandChangeStart_Upper_onUpdate = hookup_function(StealthHandChangeStart_Upper_onUpdate)
+HandChangeEnd_Upper_onUpdate = hookup_function(HandChangeEnd_Upper_onUpdate)
+HandChangeEnd_Upper_onDeactivate = hookup_function(HandChangeEnd_Upper_onDeactivate)
+StealthHandChangeEnd_Upper_onUpdate = hookup_function(StealthHandChangeEnd_Upper_onUpdate)
+StealthHandChangeEnd_Upper_onDeactivate = hookup_function(StealthHandChangeEnd_Upper_onDeactivate)

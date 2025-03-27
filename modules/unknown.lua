@@ -1473,3 +1473,6 @@ end
 function Event360070_onDeactivate()
     act(SetIsEventActionPossible, FALSE)
 end
+
+
+-- no hooks here

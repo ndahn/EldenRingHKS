@@ -364,3 +364,21 @@ end
 function DeathIdle_onDeactivate()
     act(SetDeathStay, FALSE)
 end
+
+
+SetBonfireIndex = hookup_function(SetBonfireIndex)
+SetEnableMimicry = hookup_function(SetEnableMimicry)
+ResetMimicry = hookup_function(ResetMimicry)
+SetAttackHand = hookup_function(SetAttackHand)
+SetGuardHand = hookup_function(SetGuardHand)
+GetEquipType = hookup_function(GetEquipType)
+GetEquipTypeHandStyle = hookup_function(GetEquipTypeHandStyle)
+IsHandStyleBoth = hookup_function(IsHandStyleBoth)
+SetEnableAimMode = hookup_function(SetEnableAimMode)
+AddStamina = hookup_function(AddStamina)
+SetStyleSpecialEffect = hookup_function(SetStyleSpecialEffect)
+IsDualBladeSpecific = hookup_function(IsDualBladeSpecific)
+IsEnableDualWielding = hookup_function(IsEnableDualWielding)
+ExecDeath = hookup_function(ExecDeath)
+DeathIdle_onActivate = hookup_function(DeathIdle_onActivate)
+DeathIdle_onDeactivate = hookup_function(DeathIdle_onDeactivate)

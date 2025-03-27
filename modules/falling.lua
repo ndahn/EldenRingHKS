@@ -329,3 +329,21 @@ function LandFaceDown_onUpdate()
         return
     end
 end
+
+
+IsLandDead = hookup_function(IsLandDead)
+GetLandIndex = hookup_function(GetLandIndex)
+FallCommonFunction = hookup_function(FallCommonFunction)
+LandCommonFunction = hookup_function(LandCommonFunction)
+FallStart_onUpdate = hookup_function(FallStart_onUpdate)
+FallJumpStart_onUpdate = hookup_function(FallJumpStart_onUpdate)
+FallLoop_onUpdate = hookup_function(FallLoop_onUpdate)
+Land_onUpdate = hookup_function(Land_onUpdate)
+LandLow_onActivate = hookup_function(LandLow_onActivate)
+LandLow_onUpdate = hookup_function(LandLow_onUpdate)
+FallStartFaceUp_onUpdate = hookup_function(FallStartFaceUp_onUpdate)
+FallStartFaceDown_onUpdate = hookup_function(FallStartFaceDown_onUpdate)
+FallLoopFaceUp_onUpdate = hookup_function(FallLoopFaceUp_onUpdate)
+FallLoopFaceDown_onUpdate = hookup_function(FallLoopFaceDown_onUpdate)
+LandFaceUp_onUpdate = hookup_function(LandFaceUp_onUpdate)
+LandFaceDown_onUpdate = hookup_function(LandFaceDown_onUpdate)

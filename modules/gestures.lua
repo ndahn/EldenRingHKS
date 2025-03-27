@@ -1,3 +1,4 @@
+
 function ExecGesture()
     if c_HasActionRequest == FALSE then
         return FALSE
@@ -167,3 +168,12 @@ function GestureEnd_Upper_onUpdate()
         return
     end
 end
+
+
+ExecGesture = hookup_function(ExecGesture)
+GestureCommonFunction = hookup_function(GestureCommonFunction)
+GestureLoopCommonFunction = hookup_function(GestureLoopCommonFunction)
+GestureStart_Upper_onUpdate = hookup_function(GestureStart_Upper_onUpdate)
+GestureLoopStart_Upper_onUpdate = hookup_function(GestureLoopStart_Upper_onUpdate)
+GestureLoop_Upper_onUpdate = hookup_function(GestureLoop_Upper_onUpdate)
+GestureEnd_Upper_onUpdate = hookup_function(GestureEnd_Upper_onUpdate)

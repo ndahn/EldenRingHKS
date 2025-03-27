@@ -302,3 +302,16 @@ function RideMagicInvalid_onUpdate()
         return
     end
 end
+
+
+ExecRideMagic = hookup_function(ExecRideMagic)
+RideMagicLaunch_onUpdate = hookup_function(RideMagicLaunch_onUpdate)
+RideMagicLaunch_Upper_onUpdate = hookup_function(RideMagicLaunch_Upper_onUpdate)
+RideMagicFire_onUpdate = hookup_function(RideMagicFire_onUpdate)
+RideMagicLoop_onUpdate = hookup_function(RideMagicLoop_onUpdate)
+RideMagicFireCancel_onUpdate = hookup_function(RideMagicFireCancel_onUpdate)
+RideMagicFireCombo1_onUpdate = hookup_function(RideMagicFireCombo1_onUpdate)
+RideMagicFireCombo1Cancel_onUpdate = hookup_function(RideMagicFireCombo1Cancel_onUpdate)
+RideMagicFireCombo2_onUpdate = hookup_function(RideMagicFireCombo2_onUpdate)
+RideMagicFireCombo2Cancel_onUpdate = hookup_function(RideMagicFireCombo2Cancel_onUpdate)
+RideMagicInvalid_onUpdate = hookup_function(RideMagicInvalid_onUpdate)
